@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Validation</title>
+</head>
+<body>
+    <h1>Input Form</h1>
+    <form action="#" method="get">
+        <div>
+            <label for="newTask">New Task:</label>
+            <input type="text" name="newTask" id="newTask" placeholder="Required and must contain no html characters" required>
+        </div>
+        <div>
+            <label for="taskDescription">Task Description:</label>
+            <textarea name="taskDescription" id="taskDescription" cols="30" rows="5" placeholder="optional"></textarea>
+        </div>
+        <div>
+            <label for="dueDate">Set Task due date:</label>
+            <input type="date" name="dueDate" id="dueDate" required>
+        </div>
+        <div>
+            <label for="dueTime">Set Task due time:</label>
+            <input type="time" name="dueTime" id="dueTime" required>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

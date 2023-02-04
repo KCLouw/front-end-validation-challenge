@@ -76,3 +76,8 @@ form>div {
 .item-4:hover .tooltiptext {
     visibility: visible;
 }
+
+p {
+    display: none;
+    color: red;
+}

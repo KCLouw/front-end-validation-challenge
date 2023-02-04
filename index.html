@@ -13,18 +13,21 @@
         <div class="item-1">
             <label for="newTask">New Task:</label>
             <input type="text" name="newTask" id="newTask" placeholder="Required and must contain no html characters" required>
+            <span class="tooltiptext">Must not contain any HTML characters</span>
         </div>
         <div class="item-2">
-            <label for="taskDescription">Task Description:</label>
+            <label for="taskDescription" >Task Description:</label>
             <textarea name="taskDescription" id="taskDescription" cols="30" rows="5" placeholder="optional"></textarea>
         </div>
         <div class="item-3">
             <label for="dueDate">Set Task due date:</label>
             <input type="date" name="dueDate" id="dueDate" required>
+            <span class="tooltiptext">Must select a date</span>
         </div>
         <div class="item-4">
             <label for="dueTime">Set Task due time:</label>
             <input type="time" name="dueTime" id="dueTime" required>
+            <span class="tooltiptext">Must select a time</span>
         </div>
         <button type="submit">Submit</button>
     </form>

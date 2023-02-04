@@ -1,6 +1,78 @@
 form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    border: solid 5px grey;
+    border-radius: 20px;
+    align-content: center;
+    font-family: sans-serif;
 }
 
+form>div {
+    padding: 1rem;
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+h1 {
+    text-align: center;
+}
+
+form>div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.item-1 .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position:absolute;
+    z-index:auto 1; 
+}
+
+.item-1:hover .tooltiptext {
+    visibility: visible;
+}
+
+.item-3 .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position:absolute;
+    z-index:auto 1; 
+}
+
+.item-3:hover .tooltiptext {
+    visibility: visible;
+}
+
+.tooltiptext {
+    margin-left: 10rem;
+}
+
+.item-4 .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position:absolute;
+    z-index:auto 1; 
+}
+
+.item-4:hover .tooltiptext {
+    visibility: visible;
+}
